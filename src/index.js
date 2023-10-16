@@ -21,7 +21,7 @@ const character = {
   ],
 };
 
-function extractSpecialAttacks({ special }) {
+export default function extractSpecialAttacks({ special }) {
   return special.map((el) => ({
     id: el.id,
     name: el.name,
